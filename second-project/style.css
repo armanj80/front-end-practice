@@ -1,0 +1,102 @@
+html {
+    height: 100%
+}
+
+body {
+    background: linear-gradient(to bottom, #2a223f, #776b96, #aba5c9) no-repeat;
+    font-family: "Britannic Bold", sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #2A223FFF;
+    padding: 17px;
+    border-bottom: 2px solid #32294b;
+    margin: auto auto 20px;
+}
+
+.nav-bar-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-list li {
+    display: inline-block;
+    margin: 0 40px 0 0;
+}
+
+.nav-bar-list a {
+    text-decoration: none;
+    color: #aba5c9;
+    font-size: 18px;
+}
+
+.nav-bar-list a:hover {
+    color: #FFFFFFFF;
+    transition: 0.4s;
+}
+
+.logo-type {
+    font-weight: bold;
+    color: #e3defd;
+}
+
+.sign-in-form {
+    width: 320px;
+    background-color: #aba5c9;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.sign-in-form .sign-in-label {
+    color: #2a223f;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.sign-in-form .input {
+    margin: 0 0 5px 0;
+    border: 1px solid #2a223f;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    background-color: #e8e5f8;
+}
+
+.sign-in-form .input:focus {
+    background-color: #ffffff;
+    outline: none;
+}
+
+.sign-in-form .button {
+    color: #e8e5f8;
+    border: 1px solid #2a223f;
+    border-radius: 20px;
+    padding: 4px 40px;
+    margin-top: 8px;
+    font-size: inherit;
+    background-color: #2a223f;
+}
+
+.sign-in-form .button:hover {
+    cursor: pointer;
+    background-color: #E8E5F8FF;
+    color: #2A223FFF;
+    border: 1px solid #2A223FFF;
+    transition: 0.4s;
+}
+
+.sign-in-form .guide {
+    font-size: 9px;
+    text-decoration: none;
+    color: rgba(34, 27, 51, 0.7);
+}
+
+.sign-in-form .guide:hover {
+    color: #E8E5F8FF;
+    transition: 0.4s;
+}
